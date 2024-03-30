@@ -31,7 +31,7 @@ VUE_APP_API_KEY=YOUR_API_KEY_HERE
 
 ## Screenshots
 
-![Password Generator App](screenshots/app.png)
+![Password Generator App](public/app.png)
 
 ## License
 
