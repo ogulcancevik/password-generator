@@ -1,39 +1,38 @@
-# password-generator
+# Password Generator App with Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple web application built with Vue.js that utilizes the [Password Generator API](https://api-ninjas.com/api/passwordgenerator) from API Ninjas to generate random passwords.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Generate random passwords with specified length and options.
+- Copy generated passwords to clipboard.
 
-## Type Support for `.vue` Imports in TS
+## Technologies Used
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Vue.js
+- Tailwind for styling
+- vue-toastification for notifications
+- Prettier & ESLint for code formatting
 
-## Customize configuration
+## How to Use
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Clone this repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Run the development server using `npm run serve`.
+4. Access the application at `http://localhost:8080`.
 
-## Project Setup
+## API Usage
 
-```sh
-yarn
+To use this application, you need to sign up at [API Ninjas](https://api-ninjas.com/) and get your API key. Then, create a `.env` file in the root directory of the project and add your API key like this:
+
+```
+VUE_APP_API_KEY=YOUR_API_KEY_HERE
 ```
 
-### Compile and Hot-Reload for Development
+## Screenshots
 
-```sh
-yarn dev
-```
+![Password Generator App](screenshots/app.png)
 
-### Type-Check, Compile and Minify for Production
+## License
 
-```sh
-yarn build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

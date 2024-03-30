@@ -15,11 +15,12 @@ export async function generate({
     exclude_numbers,
     exclude_special_chars
   })
-  const URL = 'https://api.api-ninjas.com/v1/passwordgenerator'
+  const URL = import.meta.env.VITE_API_URL as string
+  const headers = {
+    'X-Api-Key': import.meta.env.VITE_API_KEY as string
+  }
   const response = await fetch(`${URL}?${query}`, {
-    headers: {
-      'X-Api-Key': 'MH51eNgBEn79bqVP5AlaBQ==XAJeb6kPaSbb4V4U'
-    }
+    headers
   })
   const data = await response.json()
   return data as {
