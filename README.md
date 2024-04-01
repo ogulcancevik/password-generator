@@ -19,7 +19,7 @@ This is a simple web application built with Vue.js that utilizes the [Password G
 1. Clone this repository to your local machine.
 2. Install dependencies using `yarn`.
 3. Run the development server using `yarn dev`.
-4. Access the application at `http://localhost:5173/`.
+4. Access the application at `http://localhost:5173`.
 
 ## API Usage
 
