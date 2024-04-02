@@ -32,7 +32,7 @@
       </div>
     </div>
     <button
-      class="mt-3 flex w-full items-center justify-center border-0 bg-[#a4ffaf] py-4 font-medium uppercase tracking-wider text-[#141218] transition-colors hover:bg-[#8ae3b1] focus:outline-none"
+      class="mt-3 flex w-full items-center justify-center border-0 bg-[#a4ffaf] py-4 font-medium uppercase tracking-wider text-[#141218] transition-colors hover:bg-[#8ae3b1] focus:outline-none lg:text-sm"
       @click="generatePassword"
     >
       <Spinner v-if="isGenerating" />

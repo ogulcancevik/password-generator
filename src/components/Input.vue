@@ -4,7 +4,7 @@
       v-model="password"
       placeholder="Generated Password"
       type="text"
-      class="w-full rounded bg-[#23232b] p-4 text-2xl text-white outline-0"
+      class="w-full rounded bg-[#23232b] p-4 text-2xl text-white outline-0 lg:p-2 lg:py-3 lg:text-base"
     />
     <Copy class="cursor-pointer text-[#a4ffaf]" @click="copyPassword" />
   </div>
